@@ -1,0 +1,8 @@
+employee_id,first_name,last_name,designation,project_id,email,manager_id
+91021111,Max,Mustermann,Software Engineer,283921,mustermann@company.com,48234012
+91021151,Ned,Stark,Chief Technology Officer,,nstark@company.com,
+10921212,Dolly,Meinhard,Project Manager,131032,dmein@company.com,91021111
+48234012,Josey,Rojas,Product Manager,283921,jroj@company.com,91021111
+43204121,Fidel,Wind,Software Engineer,311092,fwind@company.com,1823012
+1823012,Peter,Kabel,Software Engineer,131032,pkabel@company.com,13220812
+13220812,Velma,Cabello,Data Scientist,933012,vcabello@company.com,91021111
