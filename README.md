@@ -15,7 +15,8 @@ This repository provides the end-to-end example from getting the user's question
 
 ## Prerequisite
 
-- Understanding of `Python` programming language and `boto3` SDK
+- Understanding of `Python` programming language and `boto3` SDK, please see [here](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime.html) for boto3 documentation
+- Up-to-date `boto3` library (you can do this by `pip install --upgrade boto3`)
 - Python IDE of choices to execute the code (alternatively, you can use SageMaker notebook instance, or SageMaker Studio for code execution)
 - IAM role to access above AWS services on your behalf
 - Access to Anthropic Claude on Amazon Bedrock, you can do this on Amazon Bedrock console page
