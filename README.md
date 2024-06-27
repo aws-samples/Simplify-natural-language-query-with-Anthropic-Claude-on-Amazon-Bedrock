@@ -16,16 +16,18 @@ This repository provides the end-to-end example from getting the user's question
 ## Prerequisite
 
 - Understanding of `Python` programming language and `boto3` SDK
-- Python IDE to execute the code (you can use SageMaker notebook instance, or SageMaker Studio)
-- IAM role to access above AWS services
-- Access to Anthropic Claude on Amazon Bedrock Console
+- Python IDE of choices to execute the code (alternatively, you can use SageMaker notebook instance, or SageMaker Studio for code execution)
+- IAM role to access above AWS services on your behalf
+- Access to Anthropic Claude on Amazon Bedrock, you can do this on Amazon Bedrock console page
 
 ![model access](https://github.com/aws-samples/Simplify-natural-language-query-with-Anthropic-Claude-on-Amazon-Bedrock/blob/main/img/bedrock-model-access.png?raw=true)
   
 
-## Workflow
+## Architecture Diagram
 
-![workflow](https://github.com/aws-samples/Simplify-natural-language-query-with-Anthropic-Claude-on-Amazon-Bedrock/blob/main/img/nlq-application-bedrock.png?raw=true)
+Below is the architecture diagram of this solution.
+
+![architecture diagram](https://github.com/aws-samples/Simplify-natural-language-query-with-Anthropic-Claude-on-Amazon-Bedrock/blob/main/img/nlq-architecture-diagram.png?raw=true)
 
 
 ## Security
